@@ -1,0 +1,131 @@
+@font-face{
+    font-family: myfont;
+    src:url(Feel.otf) ;
+}
+
+@font-face{
+    font-family: aloja;
+    src:url(aloja.otf) format('opentype');
+}
+
+@font-face{
+    font-family: porcelain;
+    src:url(Porcelain.ttf);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body.page1 {
+    background-image: url("BGI.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    margin: 0; /* Remove default body margin */
+
+    
+  }
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+
+.choco{
+    padding: 20px;
+    padding-top: 20px;
+    color: darkred;
+    font-size: large;
+    font-family: myfont;
+    text-decoration: underline;
+    font-size: 60px;
+    margin: 0%
+
+}
+
+img{
+    padding: 20px;
+    width: 450px;
+    height: 400px;
+}
+
+h1{
+    color: beige;
+    font-size: 30px;
+    text-align: center;
+    font-family: aloja;
+    font-weight: 800;
+}
+
+.nav{
+    position: absolute;
+    width:100%;
+}
+
+.nav a{
+    position: relative;
+    left: 400px;
+    top: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    margin-right: 30px;
+}
+
+p{
+    position: absolute;
+    top: -270px;;
+    left: 48px;
+    margin-left: 10px;
+    text-align: justify;
+    font-family: aloja;
+    color: black;
+    margin: 30%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.cheese.img{
+    height: 50px;
+    width: 50px;
+}
+
+.main{
+    font-family: aloja;
+    padding-top: 20px;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.sub{
+    padding-left: 30px;
+    letter-spacing: 3px;
+    text-align: left;
+    font-family: porcelain;
+    font-size: 30px;
+    color: darkred;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+    background-position: right;
+
+}
+
+
+
+.page2{
+    background-color:#FFBD59;
+    
+}
+
+
+
+
+
