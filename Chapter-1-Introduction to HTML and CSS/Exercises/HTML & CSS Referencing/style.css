@@ -1,0 +1,100 @@
+@font-face {
+    font-family: code;
+    src: url(Fonts/CODE.ttf);
+}
+@font-face {
+    font-family: writer;
+    src: url(Fonts/Typewritter.ttf);
+}
+@font-face {
+    font-family: lobster;
+    src: url(Fonts/lobster.ttf);
+}
+
+header{
+    background-color: rgb(241, 223, 198);
+    text-align: center ;
+    padding: 16px 0;
+    text-align: center;
+    border-radius: 10px;
+    font-family: code;
+    color: tomato;
+}
+
+footer{
+    text-align: center;
+    color: tomato;
+    background-color: black;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    margin-right: 10px;
+    padding: 5px 0;
+    
+}
+
+body{
+    max-width: auto;
+    margin: 30px auto;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+h2{
+    color: rgb(223, 122, 104);
+    padding: 10px;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+    color: tomato;
+}
+
+div{
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.249);
+    padding: 19px;
+    border-radius: 6px;
+    
+}
+
+.CSS h2{
+    color:#243354;
+    padding: 10px;
+}
+
+.CSS h3{
+    color: #5179ce;
+}
+
+.clr{
+    color: red;
+}
+
+.bgm{
+    background-color: rgb(166, 237, 237);
+}
+
+.corner{
+    border-radius: 20px;
+    background-color: #e5e8e8;
+    padding: 19px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.249);
+}
+
+.fontstyle{
+    font-family: lobster;
+}
+
+pre{
+    overflow-x: auto;
+    background-color: #dddada;
+    padding: 10px;
+}
+
+code{
+    font-family: writer;
+}
