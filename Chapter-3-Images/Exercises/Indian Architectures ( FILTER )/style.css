@@ -1,0 +1,96 @@
+@font-face {
+    font-family: modern;
+    src: url(fonts/modern.otf);
+}
+@font-face {
+    font-family: writer;
+    src: url(fonts/Typewritter.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    display: flex;
+    height: 100vh;
+    background: url(images/kashmir2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.IMAGES{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-family:modern;
+    text-align: center;
+    font-size: 70px;
+    padding-top:110px;
+    padding-left:215px;
+    text-shadow:2px 2px 0px rgba(27, 26, 26, 0.379);
+
+}
+    
+
+
+.glass{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background: rgba(0, 0, 0, 0.338);
+    backdrop-filter: blur(5px);
+    top:0;
+    left: 0;    
+}
+
+img{
+    width: 300px;
+    height:auto;
+    margin: 10px;
+    padding: auto;
+}
+
+img.jo{
+    filter: sepia(50%);
+    -webkit-filter: saturate(22%);
+}
+figure{
+    color: rgb(255, 255, 255);
+    font-family:writer;
+}
+
+figcaption{
+    padding-left: 10px;
+}
+
+.Pictures{
+    padding-top: 30px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.img1{
+    filter: saturate(50%);
+    filter: brightness(120%);
+    filter: contrast(50px);
+    filter: invert();
+}
+
+.img2{
+    filter: saturate(110%);
+    filter: brightness(70%);
+    filter: contrast(130%);
+    filter: sepia(40%)
+}
+
+.img3{
+    filter: hue-rotate(125%);
+    filter: brightness(84%);
+    filter: sepia(50%);
+}
