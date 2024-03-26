@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 100%;
+}
+
+header{
+    background-color:#17072b ;
+    height:120px;
+    width:100%;
+    margin-top: 0;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    background-color: #17072b;
+
+}
+
+footer{
+    position: fixed;
+    background-color: purple;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    color: #FFFFFF;
+    padding-top: 1px;
+    font-size: 15px;
+}
+
+nav a{
+    color: #FFFFFF;
+    position: relative;
+    padding: 1px;
+    padding-top: 20px;
+    margin-right: 30px;
+    left: 400px;
+    text-decoration:none ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+h2{
+    text-decoration: underline black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.CONTENT{
+    padding-left: 40px;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.welcome{
+    padding-top: 30px;
+}
+
+p{
+    margin-right: 37%;
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+.lineup{
+    background-color: #172d67;
+    height: 436px ;
+    width:430px;
+    float:right;
+    position: absolute;
+    top: 130px;
+    right: 0;
+
+}
+
+.lineup a{
+    display: block;
+    color: white;
+    text-decoration:none;;
+    padding: 13px;
+    padding-left: 20px;
+    
+
+}
+
+.lineup ul li{
+    list-style-type: none;
+}
+
+.lineup h1{
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top:0;
+    text-decoration: underline;
+}
+
+img.digi{
+    width: 757px;
+    height:272px;
+    padding-top: 15px;
+}
+
+img.ht, .tech{
+
+    height: 180px;
+    width: 180px;
+    padding:10px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
