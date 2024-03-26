@@ -35,12 +35,42 @@
             </code></pre>
         </div>
         <div>
+            <h3>&lt;main&gt;</h3>
+            <p>It contains the main content. means the body, each html file only contains one main tag.</p>
+            <pre><code>
+                &lt;main&gt;
+                    &lt;div&gt;
+                        &lt;h2&gt; hello &lt;/h2&gt;
+                    &lt;/div&gt;    
+                &lt;/main&gt;
+            </code></pre>
+        </div>
+        <div>
             <h3>&lt;Header&gt;</h3>
             <p>Usually Used for the website's Navigation or Introductory Content.</p>
+            <pre><code>
+                &lt;header&gt;
+                    &lt;h1&gt; Welcome to my website &lt;/h1&gt;
+                &lt;/header&gt;
+            </code></pre>
+        </div>
+        <div>
+            <h3>&lt;nav&gt;</h3>
+            <p>The navigation tag is used for navigation links. It can be nested within the &lt;header&gt; tag, but secondary navigation &lt;nav&gt; tags are also commonly used elsewhere on the page.</p>
+            <pre><code>
+                &lt;nav&gt;
+                    &lt;a href=""&gt;&lt;/a&gt;
+                    &lt;a href=""&gt;&lt;/a&gt;
+                    &lt;a href=""&gt;&lt;/a&gt;
+                &lt;/nav&gt;
+            </code></pre>
         </div>
         <div>
             <h3>&lt;Footer&gt;</h3>
             <p>Usually contains copyright info, Links or contacts.</p>
+            <pre><code>
+                &lt;footer&gt;All rights Received &copy; &lt;/footer&gt;
+            </code></pre>
         </div>
     </section>
 
@@ -89,11 +119,32 @@
             </code></pre>
         </div>
         <div>
+            <h3>text-shadow</h3>
+            <p>It's used to add shadow to a specific text</p>
+            <pre><code class="shadow">
+                .shadow{
+                    text-shadow: 2px 2px 5px red;
+                }
+            </code></pre>
+        </div>
+        <div class="b-image">
+            <h3>border-image</h3>
+            <p>This is used to add image as a border-image</p>
+            <pre><code>
+                .b-image{
+                    border: 10px solid transparent;
+                    padding:15px;
+                    border-image:url(border.png) 20 round;
+                }
+
+            </code></pre>
+        </div>
+        <div>
             <h3>padding</h3>
             <p>Used For Creating A Space Within An Element.</p>
             <pre><code>
                 .container{
-
+   
                     padding:30px;
                 }
             </code></pre>
@@ -126,7 +177,16 @@
             </code></pre>
 
         </div>
+        <div class="bg-img">
+            <h3>backround-image</h3>
+            <p>This is used to add background image </p>
+            <pre><code>
+                .bg-img{
+                    background-image: linear-gradient(to bottom right, red, yellow);
+                }
+            </code></pre>
+        </div>
     </section>
-    
+
 </body>
 </html>

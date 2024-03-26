@@ -98,3 +98,17 @@ pre{
 code{
     font-family: writer;
 }
+
+.shadow{
+    text-shadow: 2px 2px 5px red;
+}
+
+.b-image{
+    border: 10px solid transparent;
+    padding:15px;
+    border-image:url(images/bg.png) 20 round;
+}
+
+.bg-img{
+    background-image: linear-gradient(to bottom right, white, maroon);
+}
