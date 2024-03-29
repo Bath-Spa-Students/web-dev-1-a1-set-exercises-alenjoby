@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Linking External Css-->
+</head>
+<body>
+    <header><!--Creating header Text-->
+        <h2>Study Planner</h2>
+    </header>
+
+    <div class="container-box"><!--Container box for styling and positioning-->
+        <div class="sidebar"><!--Creating a side-navigation-bar-->
+        <nav>
+            <a href="">Home</a>
+            <a href="">Planner</a>
+            <a href="">Course/Assesment</a>
+            <a href="">About</a>
+        </nav>
+    </div>
+    <div class="content-box"><!--Content box container for days in study planner-->
+        <div class="day"><!--Creating Div named "day" to style and position the days in study planner-->
+            <h2>SUNDAY</h2>
+            <p><b>Topic</b>: Introduction to HTML and CSS</p>
+            <p><b>Description</b>: Learn the basics of HTML and CSS to create a simple web page.</p>
+        </div>
+        <div class="day">
+            <h2>MONDAY</h2>
+            <p><b>Topic</b>: Links and navigation</p>
+            <p><b>Description</b>: focuses on how to create links in web pages, allowing users to navigate between different web pages or sections of the same page.</p>
+        </div>
+        <div class="day">
+            <h2>TUESDAY</h2>
+            <p><b>Topic</b>: Images</p>
+            <p><b>Description:</b> covers how to insert and manipulate images on web pages.</p>
+        </div>
+        <div class="day">
+            <h2>WEDNESDAY</h2>
+            <p><b>Topic</b>: Page Layout</p>
+            <p><b>Description</b>: dives into how to structure the layout of web pages using HTML and CSS. This could involve concepts like positioning elements, using grids, and creating responsive layouts.</p>
+        </div>
+        <div class="day">
+            <h2>THURSDAY</h2>
+            <p><b>Topic</b>: Embedded Content</p>
+            <p><b>Description</b>:  explores how to embed multimedia content like videos, audio, and forms into web pages.</p>
+        </div>
+        <div class="day">
+            <h2>FRIDAY</h2>
+            <p><b>Topic</b>: Javascript</p>
+            <p><b>Description</b>: serves as an introduction to JavaScript, a programming language that adds interactivity to web pages.</p>
+        </div>
+    </div>    
+    <div class="container-2"><!--Using container 2 for "saturday" as the positioning is differen from other days-->
+        <div class="saturday">
+            <h2>SATURDAY</h2>
+            <p><b>Topic</b>: Whole Module Implenting Project</p>
+            <p><b>Description</b>: Create an interactive website</p>
+        </div>   
+        <div class="tasks"> <!--Making a task section to show the tasks check list-->
+            <h1>REMINDER</h1>
+            <h4>WEB DEVELOPMENT</h4>
+            <ul>
+                <li><input type="checkbox"> Submit All the 6 chapters </li><!--Creating reminder Check list --> 
+                <li><input type="checkbox"> Make a website with all of the topic learned, and add in the portfolio. </li><!--Creating check list-->
+            </ul>
+            <h4>Creative Coding</h4>
+            <ul>
+                <li><input type="checkbox"> Create a digital art with P5js.</li><!--Creating Check list-->
+                <li><input type="checkbox"> Research about a creative coder and make a research document with 1300 words.</li><!--Creating Checklist-->
+            </ul>
+        </div>
+        <div class="note"><!--Creating a sticky note section-->
+            <h1>Notes</h1>
+            <textarea placeholder="Start Writing......"></textarea><!--Used to display the text and when started typing, it disappears-->
+            <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML Guide</a><!--External Link for HTML GUIDE-->
+            <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS Guide</a><!--External Link for CSS GUIDE-->
+            <a href="https://www.w3schools.com/js/default.asp" target="_blank">JavaScript Guide</a><!--External Link for JavaScript GUIDE-->
+        </div>
+    </div>
+    <footer>Created By Alen Joby &copy;</footer>
+</body>
+</html>
