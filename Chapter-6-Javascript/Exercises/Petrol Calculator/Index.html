@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="style.css"><!--Linking External Stylesheet -->
+    <script src="script.js"></script><!--Linking Javascript-->
+</head>
+<body> 
+    <div class="patrol-container"><!--Creating a Container-->
+
+            <label for="Fuel_Price">Price Per Litre</label><!--Adding Label for the Input-->
+            <input type="number" placeholder="" value="1.72" id="Fuel_Price"><!--Input tag to get the input from the user-->
+    
+            <label for="Litre">Litres:</label><!--Adding Label for the Input-->
+            <input type="number" placeholder="Enter the Litre" id="Litre"><!--Input tag to get the input from the user-->
+
+        <div class="total"><!--Creating a container for showing the result-->
+            <label for="t-container">The result is:</label><!--Adding Label for the Input-->
+            <div class="t-container">
+                <p id="t_quantity"></p><!--Container to show the text result -->
+            </div>
+        </div>
+
+        <div class="push-button"><!-- creating a button container-->
+            <button onclick="CalculateCost()">Calculate</button><!--Giving the button a function-->
+        </div>
+    </div>
+    
+</body>
+</html>

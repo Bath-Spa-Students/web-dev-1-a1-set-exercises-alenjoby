@@ -1,0 +1,46 @@
+/*Stylimg the body and adding background Image*/
+body{
+    background-image: url(Images/calc.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/*styling the patrol container*/
+.patrol-container{
+    display: grid;
+    width:100px;
+    justify-content: center;
+    padding-left: 540px;
+    padding-top: 140px;
+    margin: 20px;
+    color: aliceblue;
+}
+
+/*positioning the button*/
+.push-button{
+    padding-left:20px;
+}
+
+/*styling the button*/
+button{
+    margin-top: 220px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: green;/*making the button green color*/
+    color: white;/*changing the text color to white*/
+    width: 150px;
+}  
+
+/*Styling the t.container("total")*/
+.t-container{
+    position:relative;/*Giving the position*/
+    margin-top: 1px;/*adjusting the top margin*/
+    border: 2px solid black;/*giving black outline for the container*/
+    background-color: orange;/*setting orange background color*/
+    height:39px;/*setting height*/
+    width:200px;/*setting width*/
+    font-weight: bold;/*making the text bold*/
+    text-align: center;/*aligning the text in center*/
+    color: white;/*making text color to white*/
+
+}
