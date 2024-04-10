@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB COLOR GUESSING GAME</title>
+    <link rel="stylesheet" href="style.css"><!--External Stylesheet Linking-->
+</head>
+<header> <h1><span id="head-color">RGB GUESSING GAME</span></h1></header><!--Heading with span id to change the style-->
+<body>
+    <div id="bar"><!--A navigation bar for buttons-->
+        <button id="new">Other Colors</button><!--Button for generating New Colors -->
+        <button id="replay">Replay</button><!--Button for replaying the game-->
+    </div><br>
+    <p class="rule">Guess the correct Answer in maximum 3 chances</p><!--Game Rule Text-->
+    <div id="Color-container"><!--Container for rgb color boxes(circle)-->
+        <div class="box"></div><!--using the same class for all the divs(rgb circles)-->
+        <div class="box"></div><!--using the same class for all the divs(rgb circles)-->
+        <div class="box"></div><!--using the same class for all the divs(rgb circles)-->
+        <div class="box"></div><!--using the same class for all the divs(rgb circles)-->
+    </div>
+    <p class="mess">Color is shown in the navigation Bar, You should Guess the correct answer.</p><br><!--displaying message with game rules-->
+    <p class="mess2">When the correct color is clicked, it's displayed in the button bar.</p><br><!--displaying message with game rules-->
+    <script src="script.js"></script><!--Linking style sheet-->
+</body>
+</html>
